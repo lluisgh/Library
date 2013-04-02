@@ -27,6 +27,7 @@
 		2F598DFF16D79091009FEA58 /* LibraryMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F598DFE16D79091009FEA58 /* LibraryMasterViewController.m */; };
 		2F598E0216D79091009FEA58 /* BookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F598E0116D79091009FEA58 /* BookDetailViewController.m */; };
 		2F890C6A1703144500690D51 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F890C691703144500690D51 /* book.png */; };
+		2FDF8567170AEF7500F01BAF /* magazine.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FDF8566170AEF7500F01BAF /* magazine.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		2F598E0016D79091009FEA58 /* BookDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookDetailViewController.h; sourceTree = "<group>"; };
 		2F598E0116D79091009FEA58 /* BookDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookDetailViewController.m; sourceTree = "<group>"; };
 		2F890C691703144500690D51 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		2FDF8566170AEF7500F01BAF /* magazine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magazine.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 		2F890C681703143700690D51 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				2FDF8566170AEF7500F01BAF /* magazine.png */,
 				2F890C691703144500690D51 /* book.png */,
 			);
 			name = Images;
@@ -213,6 +216,7 @@
 				2F598DF616D79090009FEA58 /* Default-568h@2x.png in Resources */,
 				2F598DF916D79090009FEA58 /* MainStoryboard.storyboard in Resources */,
 				2F890C6A1703144500690D51 /* book.png in Resources */,
+				2FDF8567170AEF7500F01BAF /* magazine.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

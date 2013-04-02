@@ -55,6 +55,8 @@
         } else {
             Magazine *magazine = [self detailItem];
             
+            [[self iconImageView] setImage:[UIImage imageNamed:@"magazine"]];
+            
             [[self authorTitleLabel] setText:@"Name"];
             [[self authorDetailLabel] setText:[magazine name]];
             

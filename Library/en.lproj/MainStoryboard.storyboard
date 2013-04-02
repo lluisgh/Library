@@ -83,7 +83,6 @@
                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="book.png" translatesAutoresizingMaskIntoConstraints="NO" id="R4a-cw-hkW">
                                     <constraints>
                                         <constraint firstAttribute="height" constant="45" id="8sG-FR-eLo"/>
-                                        <constraint firstAttribute="width" constant="45" id="AwZ-rq-daC"/>
                                     </constraints>
                                 </imageView>
                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="The best book of all time in all multiverses (if they do exist)" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="212" translatesAutoresizingMaskIntoConstraints="NO" id="n0M-Ry-AqE">
@@ -103,7 +102,7 @@
                             </constraints>
                         </view>
                         <view key="tableFooterView" contentMode="scaleToFill" id="0bh-2w-J2e">
-                            <rect key="frame" x="0.0" y="374" width="320" height="83"/>
+                            <rect key="frame" x="0.0" y="374" width="320" height="69"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         </view>
@@ -276,31 +275,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="book.png" width="388" height="370"/>
+        <image name="book.png" width="45" height="43"/>
     </resources>
-    <classes>
-        <class className="BookDetailViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/BookDetailViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="authorDetailLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="authorTitleLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="editionsDetailLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="editionsTitleLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="iconImageView" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="isbnDetailLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="pagesDetailLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="publicationDateDetailLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="publisherDetailLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="titleLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="LibraryMasterViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/LibraryMasterViewController.h"/>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
