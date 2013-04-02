@@ -6,6 +6,7 @@
 const struct BookAttributes BookAttributes = {
 	.author = @"author",
 	.editions = @"editions",
+	.isbn = @"isbn",
 	.pages = @"pages",
 	.publicationDate = @"publicationDate",
 	.publisher = @"publisher",
@@ -89,6 +90,13 @@ const struct BookFetchedProperties BookFetchedProperties = {
 - (void)setPrimitiveEditionsValue:(int16_t)value_ {
 	[self setPrimitiveEditions:[NSNumber numberWithShort:value_]];
 }
+
+
+
+
+
+@dynamic isbn;
+
 
 
 

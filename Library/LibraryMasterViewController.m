@@ -57,8 +57,8 @@
 #warning check how date works, month begins at zero?
     [book setPublicationDate:[NSDate dateWithYear:1951 Month:7 Day:16]];
     [book setEditionsValue:20];
-    [book setPagesValue:120];
-    
+    [book setPagesValue:224];
+    [book setIsbn:@"978-0316769488"];
     [[self publications] addObject:book];
 }
 

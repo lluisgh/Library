@@ -20,6 +20,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *publicationDateDetailLabel;
 @property (weak, nonatomic) IBOutlet UILabel *editionsDetailLabel;
 @property (weak, nonatomic) IBOutlet UILabel *pagesDetailLabel;
+@property (weak, nonatomic) IBOutlet UILabel *isbnDetailLabel;
 
 @property (weak, nonatomic) IBOutlet UILabel *authorTitleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *editionsTitleLabel;

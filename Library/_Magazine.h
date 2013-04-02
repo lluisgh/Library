@@ -6,6 +6,7 @@
 
 extern const struct MagazineAttributes {
 	__unsafe_unretained NSString *editor;
+	__unsafe_unretained NSString *isbn;
 	__unsafe_unretained NSString *name;
 	__unsafe_unretained NSString *pages;
 	__unsafe_unretained NSString *publicationDate;
@@ -18,6 +19,7 @@ extern const struct MagazineRelationships {
 
 extern const struct MagazineFetchedProperties {
 } MagazineFetchedProperties;
+
 
 
 
@@ -45,6 +47,16 @@ extern const struct MagazineFetchedProperties {
 
 
 //- (BOOL)validateEditor:(id*)value_ error:(NSError**)error_;
+
+
+
+
+
+@property (nonatomic, strong) NSString* isbn;
+
+
+
+//- (BOOL)validateIsbn:(id*)value_ error:(NSError**)error_;
 
 
 
@@ -116,6 +128,12 @@ extern const struct MagazineFetchedProperties {
 
 - (NSString*)primitiveEditor;
 - (void)setPrimitiveEditor:(NSString*)value;
+
+
+
+
+- (NSString*)primitiveIsbn;
+- (void)setPrimitiveIsbn:(NSString*)value;
 
 
 

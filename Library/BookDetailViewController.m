@@ -46,6 +46,8 @@
         NSNumber *numberOfPages = [[self detailItem] valueForKey:@"pages"];
         [[self pagesDetailLabel] setText:[numberOfPages stringValue]];
         
+        [[self isbnDetailLabel] setText:[[self detailItem] valueForKey:@"isbn"]];
+        
         if ([[self detailItem] isKindOfClass:[Book class]]) {
             Book *book = [self detailItem];
             [[self authorDetailLabel] setText:[book author]];

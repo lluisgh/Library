@@ -7,6 +7,7 @@
 extern const struct BookAttributes {
 	__unsafe_unretained NSString *author;
 	__unsafe_unretained NSString *editions;
+	__unsafe_unretained NSString *isbn;
 	__unsafe_unretained NSString *pages;
 	__unsafe_unretained NSString *publicationDate;
 	__unsafe_unretained NSString *publisher;
@@ -18,6 +19,7 @@ extern const struct BookRelationships {
 
 extern const struct BookFetchedProperties {
 } BookFetchedProperties;
+
 
 
 
@@ -59,6 +61,16 @@ extern const struct BookFetchedProperties {
 - (void)setEditionsValue:(int16_t)value_;
 
 //- (BOOL)validateEditions:(id*)value_ error:(NSError**)error_;
+
+
+
+
+
+@property (nonatomic, strong) NSString* isbn;
+
+
+
+//- (BOOL)validateIsbn:(id*)value_ error:(NSError**)error_;
 
 
 
@@ -129,6 +141,12 @@ extern const struct BookFetchedProperties {
 
 - (int16_t)primitiveEditionsValue;
 - (void)setPrimitiveEditionsValue:(int16_t)value_;
+
+
+
+
+- (NSString*)primitiveIsbn;
+- (void)setPrimitiveIsbn:(NSString*)value;
 
 
 

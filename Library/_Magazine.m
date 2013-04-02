@@ -5,6 +5,7 @@
 
 const struct MagazineAttributes MagazineAttributes = {
 	.editor = @"editor",
+	.isbn = @"isbn",
 	.name = @"name",
 	.pages = @"pages",
 	.publicationDate = @"publicationDate",
@@ -57,6 +58,13 @@ const struct MagazineFetchedProperties MagazineFetchedProperties = {
 
 
 @dynamic editor;
+
+
+
+
+
+
+@dynamic isbn;
 
 
 
