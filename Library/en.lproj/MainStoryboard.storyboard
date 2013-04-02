@@ -105,24 +105,7 @@
                         <view key="tableFooterView" contentMode="scaleToFill" id="0bh-2w-J2e">
                             <rect key="frame" x="0.0" y="374" width="320" height="83"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <subviews>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2FP-Ep-VA4">
-                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                    <state key="normal" title="Buy it already!">
-                                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                    </state>
-                                    <state key="highlighted">
-                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </state>
-                                </button>
-                            </subviews>
                             <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                            <constraints>
-                                <constraint firstItem="2FP-Ep-VA4" firstAttribute="top" secondItem="0bh-2w-J2e" secondAttribute="top" constant="20" symbolic="YES" type="default" id="bCN-jv-Zpe"/>
-                                <constraint firstAttribute="trailing" secondItem="2FP-Ep-VA4" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="i2z-to-8M4"/>
-                                <constraint firstItem="2FP-Ep-VA4" firstAttribute="leading" secondItem="0bh-2w-J2e" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="krG-c4-At5"/>
-                            </constraints>
                         </view>
                         <sections>
                             <tableViewSection id="QKn-RC-C9q">
