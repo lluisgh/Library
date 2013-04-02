@@ -12,6 +12,4 @@
 
 + (NSDate *) dateWithYear:(NSInteger)year Month:(NSInteger)month Day:(NSInteger)day;
 
-- (NSString *)stringWithDayMonthYear;
-
 @end
